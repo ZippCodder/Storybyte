@@ -1,3 +1,9 @@
+
+:root {
+--main-green: #83E52C;
+--main-gray: #3A424A;
+}
+
 h1 {
 color: orange;
 filter: grayscale(20%);

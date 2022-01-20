@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const postcssPresetEnv = require("postcss-preset-env");
 const isProduction = process.env.NODE_ENV == "production";
 const useHotReloading = process.env.HOT === "true";
+const useHTML = process.env.HTML === "true";
 
 const stylesHandler = "style-loader";
 
@@ -60,9 +61,12 @@ module.exports = () => {
   } else {
     config.mode = "development";
     config.devtool = "eval-source-map";
+
+	  if (useHTML) {
     for (let p in config.entry) {
      config.plugins.push(new HtmlWebpackPlugin({chunks: [p], filename: p.concat(".html"), template: "./public/template.html"}));
     }
+	  }
   }
   return config;
 };

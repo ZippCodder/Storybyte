@@ -8,8 +8,8 @@
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
     "watch": "webpack --watch",
-    "serve": "webpack serve",
-    "serve:hot": "HOT=true webpack serve"
+    "serve": "HTML=true webpack serve",
+    "serve:hot": "HTML=true HOT=true webpack serve"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
