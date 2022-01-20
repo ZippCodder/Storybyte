@@ -12,7 +12,6 @@ const stylesHandler = "style-loader";
 const config = {
   entry: {
      main: "./src/App.tsx",
-     home: "./src/home.tsx"
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -25,7 +24,7 @@ const config = {
     host: "localhost", 
     hot: useHotReloading
   },
-	plugins: [],
+  plugins: [],
   module: {
     rules: [
       {
