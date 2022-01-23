@@ -1,3 +1,7 @@
+/* Color scheme: #83E52C, #3A424A, #AD8D52
+ *
+ *
+ */
 
 :root {
 --main-green: #83E52C;
@@ -19,6 +23,8 @@ background: white;
 width: 100%;
 height: 100%;
 }
+
+/* Header styles... */
 
 .main-header {
 display: block;
@@ -120,7 +126,7 @@ transform: translateY(0);
 }
 }
 
-/* ___________________________________________________________*/
+/* main-intro styles... */
 
 .main-intro {
 background-image: var(--main-bg);
@@ -170,6 +176,7 @@ font-size: 2.8rem;
 
 .main-intro__text {
 margin-top: 1em;
+line-height: 1.5em;
 }
 
 .main-intro__text, .main-intro__button {
@@ -180,4 +187,69 @@ font-size: 1.5rem;
 .main-slogan {
 display: none;
 }
+}
+
+/* features styles... */
+
+.main-features {
+width: 100%;
+min-height: 100%;
+padding: 2em;
+box-sizing: border-box;
+padding-top: 2em;
+}
+
+.main-features__feature {
+width: 80%;
+display: block;
+margin: auto;
+padding: 2em;
+box-shadow: 0px 0px 10px gray;
+border-radius: var(--border-r);
+text-align: center;
+margin-top: 4em;
+}
+
+.main-features__feature-img {
+width: 70%; 
+margin-bottom: 2em;
+box-shadow: inset 0px 0px 10px #e0e0e0;
+padding: 2em;
+}
+
+.main-features__feature-text {
+color: gray;
+font-family: var(--main-font);
+line-height: 1.5em;
+margin-bottom: 2em;
+}
+
+.main-features__feature-header {
+font-size: 2em;
+font-family: var(--main-font);
+color: var(--main-blue);
+}
+
+.main-features__feature-link {
+background: var(--main-green);
+font-family: var(--main-font);
+font-size: 1em;
+padding: 1em;
+color: white;
+border-radius: var(--border-r);
+text-align: center;
+box-shadow: 0px 0px 10px #e0e0e0;
+text-decoration: none;
+}
+
+.main-features__Immersion {
+transform: rotate(1deg);
+}
+
+.main-features__Customization {
+transform: rotate(-1deg);
+}
+
+.main-features__Exploration {
+transform: rotate(1deg);
 }
