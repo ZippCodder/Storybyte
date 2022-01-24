@@ -2,6 +2,8 @@ import React from "react";
 import Knowledge from "../../public/images/knowledge.svg";
 import Custom from "../../public/images/custom.svg";
 import Explore from "../../public/images/explore.svg";
+// @ts-ignore
+import Footer from "./footer.tsx"
 
 const intro = (
 <section className="main-intro">
@@ -45,6 +47,7 @@ return (
 <>
 {intro}
 {features}
+<Footer />
 </>
 );
 }

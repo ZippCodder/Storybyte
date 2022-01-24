@@ -37,7 +37,7 @@ const config = {
             loader: 'postcss-loader',
             options: {
               postcssOptions: {
-		      plugins: [postcssPresetEnv({stage: 4})],
+		      plugins: [postcssPresetEnv({stage: false})],
               },
             },
           }]
