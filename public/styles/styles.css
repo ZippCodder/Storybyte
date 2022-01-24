@@ -24,6 +24,7 @@ width: calc(100% - 2em);
 height: 20vh;
 border-top: 1px solid #e0e0e0;
 padding: 1em;
+padding-top: 4em;
 text-align: center;
 }
 
