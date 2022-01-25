@@ -346,8 +346,7 @@ line-height: 20vh;
 }
 }
 
-
-@media screen and (width > 1200px) {
+@media screen and (width > 1300px) {
 :root {
 font-size: 130%;
 }
