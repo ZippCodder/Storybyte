@@ -116,7 +116,6 @@ line-height: 1.5;
 
 .main-menu__dropdown {
 min-width: 150px;
-white-space: nowrap;
 position: relative;
 display: block;
 right: calc(150px - 2rem);
@@ -349,6 +348,6 @@ line-height: 20vh;
 
 @media screen and (width > 1300px) {
 :root {
-font-size: 150%;
+font-size: 130%;
 }
 }
