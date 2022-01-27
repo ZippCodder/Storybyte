@@ -1,9 +1,14 @@
 import React from "react";
-import Knowledge from "../../public/images/knowledge.svg";
-import Custom from "../../public/images/custom.svg";
-import Explore from "../../public/images/explore.svg";
+import ReactDOM from "react-dom";
+import Knowledge from "../public/images/knowledge.svg";
+import Custom from "../public/images/custom.svg";
+import Explore from "../public/images/explore.svg";
+import "../public/styles/styles.css";
+import "../public/styles/home.css";
 // @ts-ignore
-import Footer from "./footer.tsx"
+import Footer from "./components/footer.tsx";
+// @ts-ignore
+import Header from "./components/header.tsx";
 
 const intro = (
 <section className="main-intro">
@@ -45,9 +50,12 @@ const features = (
 export default function Home(): JSX.Element {
 return (
 <>
+<Header />
 {intro}
 {features}
 <Footer />
 </>
 );
 }
+
+ReactDOM.render(<Home />, document.getElementById("root"));
