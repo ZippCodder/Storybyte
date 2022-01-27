@@ -351,3 +351,12 @@ line-height: 20vh;
 font-size: 130%;
 }
 }
+
+@media screen and (width > 1700px) {
+:root {
+font-size: 140%;
+}
+.main-features {
+font-size: 120%;
+}
+}
