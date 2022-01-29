@@ -18,8 +18,8 @@ setOpen(true);
 }
 
 return (
-<div className="main-menu">
-<i className="fas fa-bars" onClick={toggleMenu}></i>
+<div className="main-menu" title="main menu">
+<i tabIndex={0} className="fas fa-bars" onClick={toggleMenu}></i>
 <div className="main-menu__dropdown" style={{display: (open) ? "block":"none"}}>{children}</div>
 </div>
 );
