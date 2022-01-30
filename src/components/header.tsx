@@ -16,8 +16,8 @@ const menu = (
 export default function Header({loggedIn}: {loggedIn: boolean}): JSX.Element {
 return (<header className="main-header">
         <a className="main-logo" href="" title="logo" aria-label="logo" role="img">
-        <img className="flag-logo" src={flagLogo}/>
-        <img className="text-logo" src={textLogo}/>
+        <img alt="logo" className="flag-logo" src={flagLogo}/>
+        <img alt="logo" className="text-logo" src={textLogo}/>
         </a>
         <h2 className="main-slogan" title="slogan">Stories Worth Sharing</h2>
         <Menu>

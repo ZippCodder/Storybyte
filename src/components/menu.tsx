@@ -25,7 +25,7 @@ toggleMenu();
 
 return (
 <div className="main-menu">
-<i tabIndex={0} title="main-menu" aria-haspopup="menu" aria-label="menu" aria-controls="main-dropdown" className="fas fa-bars" onClick={toggleMenu} onKeyDown={keyToggle}></i>
+<i tabIndex={0} title="main-menu" aria-haspopup="menu" aria-label="menu" aria-hidden="false" aria-controls="main-dropdown" className="fas fa-bars" onClick={toggleMenu} onKeyDown={keyToggle}></i>
 <div role="menu" aria-label="menu dropdown content" className="main-menu__dropdown" id="main-dropdown" style={{display: (open) ? "block":"none"}}>{children}</div>
 </div>
 );
