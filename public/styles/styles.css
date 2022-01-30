@@ -9,6 +9,7 @@
 --main-font: 'Ubuntu', sans-serif;
 --border-r: 3px;
 --main-bg: url("../images/cover-image2.jpg");
+--alt-bg: url("../images/cover-image1.jpg");
 }
 
 html,body {
@@ -19,11 +20,6 @@ overflow-X: hidden;
 background: white;
 }
 
-main {
-width: 100%;
-height: 100%;
-}
-
 footer {
 width: calc(100% - 2em);
 height: 20vh;
@@ -31,6 +27,7 @@ border-top: 1px solid #e0e0e0;
 padding: 1em;
 padding-top: 4em;
 text-align: center;
+background: white;
 }
 
 footer p {

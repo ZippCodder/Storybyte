@@ -51,12 +51,12 @@ const features = (
 export default function Home(): JSX.Element {
 return (
 <>
-<main className="main-cont">
 <Header />
+<main>
 {intro}
 {features}
-<Footer />
 </main>
+<Footer />
 </>
 );
 }
