@@ -29,7 +29,7 @@ link: string;
 desc: string;
 }
 
-function Feature({name, body, img, action, link, desc}: FeatureProps) {
+function Feature({name, body, img, action, link, desc}: FeatureProps): JSX.Element {
 return (
 <article className={`main-features__feature main-features__${name}`}>
 <h2 className="main-features__feature-header"><i>{name}</i></h2>
