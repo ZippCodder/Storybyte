@@ -99,8 +99,9 @@ min-height: 20vmin;
 
 @media screen and (width > 1200px) {
 .form-container__form {
-width: 20vmin;
-height: 20vmin;
+width: 0;
+min-width: 20vmin;
+min-height: 20vmin;
 }
 }
 
