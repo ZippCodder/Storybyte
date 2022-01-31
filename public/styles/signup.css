@@ -37,6 +37,7 @@ font-size: 2em;
 margin: auto;
 margin-bottom: 1em;
 display: block;
+white-space: nowrap;
 }
 
 .form-container__form input {
