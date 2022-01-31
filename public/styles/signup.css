@@ -26,6 +26,7 @@ padding: 2em;
 width: 100%;
 color: gray;
 box-shadow: 0px 0px 10px black;
+text-align: center;
 }
 
 .form-container__heading {
@@ -102,7 +103,7 @@ min-height: 20vmin;
 @media screen and (width > 1200px) {
 .form-container__form {
 width: 0;
-min-width: 20vmin;
+min-width: 30vw;
 min-height: 20vmin;
 }
 }
