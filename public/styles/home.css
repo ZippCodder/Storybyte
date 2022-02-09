@@ -35,9 +35,18 @@ font-family: var(--main-font);
 border: none;
 border-radius: var(--border-r);
 background: var(--main-green);
-padding: 1em;
 margin-top: 2em;
 box-shadow: 0px 0px 10px #222222;
+}
+
+button > a {
+color: white;
+display: block;
+height: 100%;
+padding: 1em;
+width: 100%;
+box-sizing: border-box;
+text-decoration: none;
 }
 
 .main-intro__header {

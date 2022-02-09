@@ -3,19 +3,20 @@ import ReactDOM from "react-dom";
 import Knowledge from "../public/images/knowledge.svg";
 import Custom from "../public/images/custom.svg";
 import Explore from "../public/images/explore.svg";
-import "../public/styles/styles.css";
-import "../public/styles/home.css";
 // @ts-ignore
 import Footer from "./components/footer.tsx";
 // @ts-ignore
 import Header from "./components/header.tsx";
+
+import "../public/styles/styles.css";
+import "../public/styles/home.css";
 
 const intro = (
 <section className="main-intro">
 <article className="main-intro__article">
 <h1 className="main-intro__header">Choose Your Journey</h1>
 <p className="main-intro__text">A community creating and sharing interactive stories that envoke wonder, and inspire young writers to unleash their passion in a special way!</p>
-<button className="main-intro__button" title="get started">Get Started</button>
+<button className="main-intro__button" title="get started"><a href="/signup">Get Started</a></button>
 </article>
 </section>
 );
@@ -61,4 +62,4 @@ return (
 );
 }
 
-ReactDOM.render(<Home />, document.getElementById("root"));
+if (!_SSR_) ReactDOM.hydrate(React.createElement(Home,null), document.getElementById("root"));

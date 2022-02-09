@@ -133,22 +133,22 @@ text-align: center;
 padding: 0;
 }
 
-.main-menu__dropdown li {
+.menu__dropdown__li {
 width: 80%;
 }
 
-.main-menu__dropdown ul > li:nth-child(1) {
+.menu__dropdown__li:nth-child(1) {
 border-bottom: 1px solid #e0e0e0;
 }
 
-.main-menu__dropdown a {
+.menu__dropdown__li a {
 color: var(--main-green);
 font-family: var(--main-font);
 text-decoration: none;
 white-space: nowrap;
 }
 
-.main-menu__dropdown a > i {
+.menu__dropdown__li i {
 color: var(--main-green);
 font-size: 1em;
 }

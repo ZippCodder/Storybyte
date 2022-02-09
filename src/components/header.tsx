@@ -7,8 +7,8 @@ import Menu from "./menu.tsx";
 const menu = (
 <nav>
 <ul>
-<li title="sign up" className="menu__dropdown__li"><a href="" tabIndex={0}>Sign Up | <i className="fas fa-user-plus"></i></a></li>
-<li title="sign in" className="menu__dropdown__li"><a href="" tabIndex={0}>Sign In | <i className="fas fa-sign-out-alt"></i></a></li>
+<li title="sign up" className="menu__dropdown__li"><a href="/signup" tabIndex={0}>Sign Up | <i className="fas fa-user-plus"></i></a></li>
+<li title="sign in" className="menu__dropdown__li"><a href="/signin" tabIndex={0}>Sign In | <i className="fas fa-sign-out-alt"></i></a></li>
 </ul>
 </nav>
 );
